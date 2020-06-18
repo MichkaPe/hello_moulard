@@ -1,2 +1,2 @@
 import datetime
-print('helloWorld', datetime.datetime.now())
+print('helloWorld', datetime.datetime.now().strftime("%d/%m/%Y"))
